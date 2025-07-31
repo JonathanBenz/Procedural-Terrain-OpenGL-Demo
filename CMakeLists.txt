@@ -24,6 +24,10 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     includes
 )
 
+set_target_properties(${PROJECT_NAME} PROPERTIES
+    VS_DEBUGGER_WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}"
+)
+
 set(GLFW_LIB_PATH "${CMAKE_SOURCE_DIR}/lib/glfw3.lib")
 
 IF(WIN32)
