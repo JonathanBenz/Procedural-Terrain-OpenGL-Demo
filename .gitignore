@@ -1,0 +1,10 @@
+out/
+bin/
+build/
+x64/
+.vs/
+.idea/
+CMakeSettings.json
+*.vcxproj*
+*.sln
+*.user
