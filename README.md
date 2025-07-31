@@ -4,6 +4,9 @@
 **Description:**  
 My entry for the [Acerola 2025 Dirtjam](https://itch.io/jam/acerola-dirt-jam) — a procedural terrain demo built in Modern Core OpenGL using C++14 over the span of two weeks. 
 
+**Controls:**
+Move around with WASD, look around by using the mouse. 
+
 ---
 
 ## Features
