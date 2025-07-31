@@ -24,16 +24,16 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     includes
 )
 
-link_directories(lib)
+set(GLFW_LIB_PATH "${CMAKE_SOURCE_DIR}/lib/glfw3.lib")
 
-if (WIN32)
-    target_link_libraries(${PROJECT_NAME} glfw3 opengl32)
-elseif(APPLE)
+IF(WIN32)
+    target_link_libraries(${PROJECT_NAME} ${GLFW_LIB_PATH} opengl32)
+ELSEIF(APPLE)
     find_library(OpenGL_LIBRARY OpenGL)
     target_link_libraries(${PROJECT_NAME} ${OpenGL_LIBRARY})
-elseif(UNIX)
+ELSEIF(UNIX)
     target_link_libraries(${PROJECT_NAME} glfw GL X11 pthread dl)
-endif()
+ENDIF()
 
 
 install(TARGETS ${PROJECT_NAME} DESTINATION bin)
