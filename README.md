@@ -7,6 +7,8 @@ My entry for the [Acerola 2025 Dirtjam](https://itch.io/jam/acerola-dirt-jam) â€
 **Controls:**
 Move around with WASD, look around by using the mouse. 
 
+**Itch Page: https://johnny290.itch.io/opengl-procedural-terrain-demo**
+
 ---
 
 ## Features
