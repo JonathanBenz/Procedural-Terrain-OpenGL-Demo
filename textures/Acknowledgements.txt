@@ -1,0 +1,3 @@
+aerial_rocks: https://polyhaven.com/a/aerial_rocks_04
+snow:         https://polyhaven.com/a/snow_field_aerial
+skybox:       https://opengameart.org/content/retro-skyboxes-pack
