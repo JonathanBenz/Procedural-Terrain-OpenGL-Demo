@@ -75,7 +75,7 @@ const float fogDensity = 0.1f;
 glm::vec3 fogColor(0.8f, 0.8f, 0.8f);
 
 // --- Lighting Params
-const float gaussianBlurIntensity = 100.0f;
+const float gaussianBlurIntensity = 10.0f;
 const float bloomFactor = 5.0f;
 const glm::vec3 WHITE = glm::vec3(1.0f, 0.85f, 0.55f) * bloomFactor;
 const glm::vec3 ORANGE = glm::vec3(1.0f, 0.5f, 0.05f) * bloomFactor;
